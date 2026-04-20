@@ -41,16 +41,16 @@ public class Main {
 
         if (songRecs.equals("y")){
             if (randomGenre.equals("Pop")){
-                for songs in popSongs{
-                    System.out.println(songs);
+                for (String popSong : popSongs) {
+                    System.out.println(popSong);
                 }
             } else if (randomGenre.equals("Show Tunes")){
-                for songs in showTunesSongs{
-                    System.out.println(songs);
+                for (String showTunesSong : showTunesSongs){
+                    System.out.println(showTunesSong);
                 }
             } else if (randomGenre.equals("Indie")){
-                for songs in indieSongs{
-                    System.out.println(songs);
+                for (String indieSong : indieSongs){
+                    System.out.println(indieSong);
                 }
             }
         }else{
