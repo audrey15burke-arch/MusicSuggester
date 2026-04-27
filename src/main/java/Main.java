@@ -48,7 +48,7 @@ public class Main {
         jazzSongs.add("A Lovely Night from La La Land");
 
         classicalSongs.add("Clair de Lune by Debussy");
-        classicalSongs.add("Moonlight Sinata by Beethoven");
+        classicalSongs.add("Moonlight Sonata by Beethoven");
         classicalSongs.add("The Four Seasons by Vivaldi");
 
 
@@ -74,15 +74,15 @@ public class Main {
                 for (String indieSong : indieSongs){
                     System.out.println(indieSong);
                 }
-            } else if (random.Genre.equals("R&B")) {
+            } else if (randomGenre.equals("R&B")) {
                 for (String rnbSong : rnbSongs) {
                     System.out.println(rnbSong);
                 }
-            } else if (random.Genre.equals("Jazz")) {
+            } else if (randomGenre.equals("Jazz")) {
                 for (String jazzSong : jazzSongs) {
                     System.out.println(jazzSong);
                 }
-            } else if (random.Genre.equals("Classical")) {
+            } else if (randomGenre.equals("Classical")) {
                 for (String classicalSong : classicalSongs) {
                     System.out.println(classicalSong);
                 }
